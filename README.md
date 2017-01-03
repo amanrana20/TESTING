@@ -8,5 +8,5 @@ This repository has a Dockerfile and a python file which is being run using a sh
 
 
 To pull the Docker image:
-
+python
 '''docker pull amanrana20/image01'''
