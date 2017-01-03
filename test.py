@@ -1,2 +1,1 @@
-name = Input('What is your name ?  ')
-print('Hello ! Nice to meet you {} !'.format(name))
+print('\nHello ! My name is {}.\nI am here to assist you in any way possible.\n'.format('Jaarvis'))
