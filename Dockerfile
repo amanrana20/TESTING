@@ -1,10 +1,11 @@
-FROM ubuntu:trusty
+FROM ubuntu
 
-RUN sudo apt-get update
-RUN sudo apt-get install python
+RUN apt-get update && apt-get -y upgrade \
+	python \
+	python-pip 
 
 ADD test.py /tmp/
 
 EXPOSE 5000
 
-CMD python test.py
+CMD python /tmp/test.py
